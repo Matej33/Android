@@ -11,6 +11,8 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
+            //Test();
+
             //TypographyDemo();
             //PinCode();
             //Buttons();
@@ -19,6 +21,13 @@ class MainActivity : ComponentActivity() {
             //Box1();
             //Weight1();
             //Weight2();
+            //Piskvorky();
+            //Pisomka();
+            //Obrazky();
+            //SwitchOkien();
+            //Scrolling();
+            //LeftRightScrolling();
+            DataFromInternet();
         }
     }
 }
